@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="style/style.css")
+    title Minecraft clone
+  body
+    canvas(id="game", tabindex="1")
+    div(class="game-info")
+      div
+        span <b>WASD: </b>Movement
+        span <b>PaB: </b>Put a block
+        span <b>DaB: </b>Delete a block
+        span <b> Space: </b> Climb up
+        span <b> Shift: </b>Go down
+      hr
+      div(id="debug")
+        span
+          b
+    div(id="cursor")
+
+    script(src="./scripts/perlin.js")
+    script(src="./scripts/core.js", type="module")
