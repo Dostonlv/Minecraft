@@ -1,5 +1,5 @@
 import express = require('express');
-
+//server
 const app= express();
 
 
